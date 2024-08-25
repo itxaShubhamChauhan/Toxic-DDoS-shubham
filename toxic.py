@@ -279,7 +279,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 𝐆𝐀𝐌𝐄 𝐊𝐈 𝐌𝐀𝐀 𝐓𝐎𝐗𝐈𝐂 𝐍𝐄 𝐂𝐇𝐎𝐃 𝐃𝐈 𝐇𝐀𝐈🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @itxz_toxic_op"
+    response = f"{username}, 𝐋𝐀𝐖𝐃𝐄 𝐋𝐀𝐆 𝐆𝐀𝐘𝐄 𝐋𝐎𝐁𝐁𝐘 𝐊𝐄..🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- User of @itxz_toxic_op"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -320,7 +320,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 BABY JAKE ACCESS LEKE AAO! 🚫\n\nOops! AB KYA DEKH RAHA HAI JAKE PERMISSION LEKE AA USKE BAAD /bgmi YE COMMAND ACCESS KAR SKTA HAI. DM TO BUY ACCESS:- @itxz_toxic_op")
+        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @itxz_toxic_op")
 
     bot.reply_to(message, response)
 
